@@ -7,7 +7,7 @@ import {Observable} from 'rxjs/Observable';
 })
 export class CarService {
 
-  public API = 'https://ganeshp-angular-schb.herokuapp.com';
+  public API = 'https://ganesh-angular-schb.herokuapp.com/cool-cars';
   public CAR_API = this.API + '/cars';
   public COOL_CARS_API = this.API + '/cool-cars';
 
